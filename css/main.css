@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  line-height: 1.4;
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.banner{
+  position: relative;
+  max-height: 500px;
+  overflow: hidden;
+}
+.banner-image {
+  display: block;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+.banner-tittle {
+  position: relative;
+  color: white;
+  background-color: gray;
+  display: inline-block;
+
+}
+
+.banner-body {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: relative;
+
+}
